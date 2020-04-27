@@ -253,3 +253,19 @@ export function filterArray(array: any[], filterField: string, filterValue: any 
 export function comparer(a: any, b: any) {
   return a < b ? -1 : a > b ? 1 : 0;
 }
+
+/**
+ * Search for the object in the array and return if object is in the array.
+ * @param obj object to search
+ * @param array array where the object could be
+ */
+export function isIn(obj: any, array: any[]) {
+  if (!obj || !array) {
+    return;
+  }
+  if (array.indexOf(obj) !== -1) {
+    return true;
+  } else {
+    return false;
+  }
+}
