@@ -59,7 +59,7 @@ export const isEmptyArray = (obj: any[]) => {
  * Check if the array contains any element.
  * @param obj array to check
  */
-export const isArrayWithData = (obj: any[]) => {
+export const isArrayWithData = (obj: any) => {
   return !!(Array.isArray(obj) && obj.length);
 };
 
