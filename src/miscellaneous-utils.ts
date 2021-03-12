@@ -97,7 +97,7 @@ export const notNullOrUndefined = (obj: any) => {
 };
 
 /**
- * Check if object is empty.
+ * Check if object is truthy and return true or false.
  * @param obj object to check
  */
 export const isTruthy = (obj: any) => {
@@ -193,7 +193,13 @@ export function mapObjectObjectsToId(obj: any) {
  * Returns the mathematical average of a list of numbers.
  * @param list list of numbers
  */
-export const average = (list: number[]) => list.reduce((p: number, c: number) => p + c) / list.length;
+export const average = (list: number[]) => {
+  if (!isArrayWithData(list)) {
+    console.log('No list provided for calculating average!');
+    return 0;
+  }
+  list.reduce((p: number, c: number) => p + c) / list.length
+};
 
 /**
  * Sort an array of objects by the requested field.
