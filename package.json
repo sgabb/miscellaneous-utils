@@ -1,6 +1,6 @@
 {
   "name": "miscellaneous-utils",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "",
   "keywords": [],
   "main": "dist/miscellaneous-utils.umd.js",
@@ -12,7 +12,10 @@
   "author": "Gabrio Mauri <gabrio.mauri@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/sgabb/miscellaneous-utils"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "license": "MIT",
   "engines": {
