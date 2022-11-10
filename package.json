@@ -1,5 +1,5 @@
 {
-  "name": "miscellaneous-utils",
+  "name": "@sgabb/miscellaneous-utils",
   "version": "0.2.3",
   "description": "",
   "keywords": [],
@@ -15,7 +15,7 @@
     "url": "https://github.com/sgabb/miscellaneous-utils"
   },
   "publishConfig": {
-    "sgabb:registry": "https://npm.pkg.github.com"
+    "@sgabb:registry": "https://npm.pkg.github.com"
   },
   "license": "MIT",
   "engines": {
