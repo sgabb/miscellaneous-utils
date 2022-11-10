@@ -208,7 +208,9 @@ export const average = (list: number[]) => {
  */
 export function sortArray(array: any[], fieldToSort: string) {
   if (isArrayWithData(array)) {
-    return array.sort(function (a, b) { return a[fieldToSort] - b[fieldToSort]; });
+    return array.sort(
+      (a, b) => a[fieldToSort] < b[fieldToSort] ? -1 : a[fieldToSort] > b[fieldToSort] ? 1 : 0
+    );
   } else {
     return [];
   }
