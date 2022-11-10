@@ -15,7 +15,7 @@
     "url": "https://github.com/sgabb/miscellaneous-utils"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "sgabb:registry": "https://npm.pkg.github.com"
   },
   "license": "MIT",
   "engines": {
