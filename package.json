@@ -1,6 +1,6 @@
 {
   "name": "@sgabb/miscellaneous-utils",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "",
   "keywords": [],
   "main": "dist/miscellaneous-utils.umd.js",
